@@ -4,3 +4,7 @@ Aplicação baseada no live-coding 'Crie seu gerenciador de salas de reuniões c
 ## Requisitos
 * Java 11
 * Maven 8.3.2
+
+## Front-end
+
+https://github.com/ademirsantosjr/dio_bootcamp_meeting_room_ui
