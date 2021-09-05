@@ -4,4 +4,3 @@ Aplicação baseada no live-coding 'Crie seu gerenciador de salas de reuniões c
 ## Requisitos
 * Java 11
 * Maven 8.3.2
-* Angular 12
