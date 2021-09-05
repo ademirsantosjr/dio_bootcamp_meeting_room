@@ -5,6 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -26,14 +27,19 @@ public class Room {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
+    @NotNull
     @NotBlank
     private String name;
     
+    @NotNull
+    @NotBlank
     private String date;
     
+    @NotNull
     @NotBlank
     private String startHour;
     
+    @NotNull
     @NotBlank
     private String endHour;
 }
